@@ -1,0 +1,4 @@
+<fieldset>
+  <legend *ngIf="legendValue && legendValue.trim().length > 0">{{legendValue}}</legend>
+  <app-child-component (submitted)="onSubmit($event)"></app-child-component>
+</fieldset>

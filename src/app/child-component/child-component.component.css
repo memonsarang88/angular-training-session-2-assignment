@@ -1,0 +1,16 @@
+input[type='text'] {
+  width:  100%;
+}
+
+div {
+  margin: 5px;
+}
+
+div.button-div {
+  text-align: right;
+}
+
+input[type='button'] {
+  font-size:  12pt;
+  margin-top: 10px;
+}

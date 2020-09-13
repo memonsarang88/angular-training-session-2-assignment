@@ -1,0 +1,15 @@
+<div>
+  <label>Name:&nbsp;</label>
+</div>
+<div>
+  <input type="text" #name (keyup)="nameChanged(name, reverseName)"/>
+</div>
+<div>
+  <label>Reverse-name:&nbsp;</label>
+</div>
+<div>
+  <input type="text" disabled #reverseName/>
+</div>
+<div class="button-div">
+  <input type="button" value="Submit" (click)="submitted.emit(name.value)"/>
+</div>
